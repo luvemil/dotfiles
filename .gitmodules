@@ -1,0 +1,3 @@
+[submodule "sources/mguterl"]
+	path = sources/mguterl
+	url = git@github.com:mguterl/dotfiles.git

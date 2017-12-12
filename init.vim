@@ -16,6 +16,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
     " Fugitive
     Plug 'tpope/vim-fugitive'
+    " tmux integration
+    Plug 'christoomey/vim-tmux-navigator'
 " }
 
 call plug#end()

@@ -1,3 +1,6 @@
 [submodule "sources/mguterl"]
 	path = sources/mguterl
 	url = git@github.com:mguterl/dotfiles.git
+[submodule "sources/adibis"]
+	path = sources/adibis
+	url = git@github.com:adibis/nvim.git

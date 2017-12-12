@@ -1,3 +1,4 @@
+" Source: adibis/init.vim
 call plug#begin('~/.config/nvim/plugged')
 " Ensure plug.vim is in ~/.config/nvim/autoload and run
 " :PlugInstall

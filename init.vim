@@ -41,10 +41,7 @@ let mapleader=','
         set gdefault            " Use 'g' flag by default with :s/foo/bar/.
 
         " Use <C-L> to clear the highlighting of :set hlsearch.
-        if maparg('<C-L>', 'n') ==# ''
-            nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
-        endif
-        nnoremap <C-B> :nohlsearch<CR>
+        nnoremap <Leader>i :nohlsearch<CR>
     " }
 
     " Formatting {
@@ -169,7 +166,7 @@ let mapleader=','
     " Move to last buffer and delete current
     nmap <Leader>d :bp\|bd #<CR>
 
-    " Move between pane
+    " Move between panes
     nmap <C-J> <C-W>j
     nmap <C-K> <C-W>k
     nmap <C-H> <C-W>h

@@ -4,3 +4,6 @@
 [submodule "sources/adibis"]
 	path = sources/adibis
 	url = git@github.com:adibis/nvim.git
+[submodule "sources/statico"]
+	path = sources/statico
+	url = git@github.com:statico/dotfiles.git

@@ -1,0 +1,4 @@
+tmux new-session -s dev -n editor -d
+tmux send-keys -t dev 'nvim' C-m
+tmux split-window -h -p 35 -t dev
+tmux split-window -v -t dev

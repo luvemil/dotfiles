@@ -219,7 +219,7 @@ let mapleader=','
     " }
     "  NERD_tree {
         let NERDTreeChDirMod=2
-        let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$', '\.swp$']
+        let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
         let NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$',  '\~$']
         let NERDTreeShowBookmarks=1
         map <F4> :NERDTreeToggle<CR>

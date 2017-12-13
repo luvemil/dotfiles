@@ -224,6 +224,9 @@ let mapleader=','
         let NERDTreeShowBookmarks=1
         map <F4> :NERDTreeToggle<CR>
     " }
+    " Tmux {
+        nmap \r :!tmux send-keys -t 0.0 C-p C-j <CR><CR>
+    " }
 " }
 
 " vim:set ft=vim sw=4 ts=4:

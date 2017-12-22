@@ -19,6 +19,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'tpope/vim-fugitive'
     " tmux integration
     Plug 'christoomey/vim-tmux-navigator'
+    " NerdCommenter
+    Plug 'scrooloose/nerdcommenter'
 " }
 
 call plug#end()

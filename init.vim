@@ -23,6 +23,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'scrooloose/nerdcommenter'
     " ag
     Plug 'mileszs/ack.vim'
+    " vimtex
+    Plug 'lervag/vimtex'
 " }
 
 call plug#end()
@@ -30,6 +32,8 @@ call plug#end()
 " Map the leader key to ,
 "let mapleader="\<SPACE>"
 let mapleader=','
+let maplocalleader='\'
+map <Space> \
 
 " General {
     "set noautoindent        " I indent my code myself.
@@ -235,6 +239,10 @@ let mapleader=','
         if executable('ag')
             let g:ackprg = 'ag --vimgrep'
         endif
+    " }
+    " Vimtex {
+        let g:vimtex_compiler_progname = 'nvr' " neovim-remote bindings
+        let g:vimtex_view_method = 'mupdf'
     " }
 " }
 

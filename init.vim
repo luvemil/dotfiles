@@ -21,6 +21,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'christoomey/vim-tmux-navigator'
     " NerdCommenter
     Plug 'scrooloose/nerdcommenter'
+    " ag
+    Plug 'mileszs/ack.vim'
 " }
 
 call plug#end()
@@ -228,6 +230,11 @@ let mapleader=','
     " }
     " Tmux {
         nmap \r :!tmux send-keys -t 0.0 C-p C-j <CR><CR>
+    " }
+    " Ack {
+        if executable('ag')
+            let g:ackprg = 'ag --vimgrep'
+        endif
     " }
 " }
 
